@@ -1,5 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.guestlist = void 0;
 //*list of guest list in array
 var guestlist = ["Ali", "Sana", "Irha"];
+exports.guestlist = guestlist;
 //*step1 Add a print statement at the end of your program stating the name of the guest who can’t make it.
 var personwhocant = "sana";
 console.log("".concat(personwhocant, ",can't make it to dinner "));

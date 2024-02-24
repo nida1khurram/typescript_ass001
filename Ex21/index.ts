@@ -1,30 +1,36 @@
 
-/*
+// They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items.
+
+
 //object
-let food :{
+const food :{
     item:string,
     price:number,
     description:string,
-};
-
-food = {
+}= {
     item:"chicken roll",
     price:150,
     description:"delicious full of chicken roll",
 };
-console.log(food);
-*/
+// console.log(food);
+
 
 // define an array of an object
-let foods: Array<typeof food> = []
+let foods: Array<typeof food> = [];
 //push obj
 
+foods.push(food);
 foods.push({
-    name: "zinger burger",
+    item: "zinger burger",
     price: 350,
-    description:"delicious  chicken burger",
+    description:"delicious  chicken burger",});
 
-});
+    foods.push({
+        item: "Pizza mini",
+        price: 350,
+        description:"Fajita flavour",});
 
-// foods.push({name: "zinger burger",price: 350;description:"delicious  chicken burger"});
+// console.log(foods)
+for(let i of foods){console.log(i)}
+
 export{}

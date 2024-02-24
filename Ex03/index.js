@@ -1,15 +1,16 @@
+"use strict";
 //Store a person’s name in a variable
-var pName = "nida ali";
+let pName = "nida ali";
 //* print that person’s name in lowercase
-var lName = pName.toLowerCase();
+let lName = pName.toLowerCase();
 console.log("LowerCase " + lName);
 //* print that person’s name in uppercase
-var uName = pName.toUpperCase();
+let uName = pName.toUpperCase();
 console.log("UpperCase " + uName);
 //*print that person’s name in Titlecase
-var words = pName.split(" ");
-var tName = " ";
-for (var i = 0; i < words.length; i++) {
+let words = pName.split(" ");
+let tName = " ";
+for (let i = 0; i < words.length; i++) {
     tName += words[i].charAt(0).toUpperCase() + words[i].slice(1).toLowerCase() + " ";
 }
 ;

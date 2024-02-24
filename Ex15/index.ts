@@ -17,3 +17,4 @@ for (const guest of guestlist){
     console.log(`${guest} , you are invited to Dinner`);
     
 } 
+export{ guestlist}
