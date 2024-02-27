@@ -1,50 +1,50 @@
-/*
+
 //Tests for equality and inequality with strings
 let fname:string="Quaide-e-Azam"
 let lname:string="Muhammad Ali Jinnah"
-console.log(fname == lname);
+console.log("string test False :",fname === lname);
 
-console.log(fname != lname);
+console.log("string test True :",fname !== lname);
 
 //Tests using the lower case function
-let fullname:string="Quaide-e-Azam Muhammad Ali Jinnah"
-console.log(fullname.toLowerCase());
+let t1:string="World"
+let t2:string="world"
+console.log("lower case false :",t1 === t2);
+console.log("lower case true :",t1.toLowerCase() === t2);
 
 // • Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
 
 let num:number=10
-console.log(num == num);
-console.log(num != num);
-console.log(num > 10);
-console.log(num < 10);
-console.log(num >= 10);
-console.log(num <=10);
+console.log("equality :",num === num);
+console.log("inequality :",num !== num);
+
+console.log("greter than :",num > 10);
+console.log("less than :",num  < 10);
+
+console.log("greter than equal :",num >= 10);
+console.log("less than equal :",num <= 10);
 
 // • Tests using "and" and "or" operators
-let firstname:string="Quaide-e-Azam"
-let lastname:string="Muhammad Ali Jinnah"
-console.log(firstname && lastname);
+let num1:number=7
+let num2:number=10
+let num3:number=15
+console.log("and :",num1 < num2 && num2 < num3);//both con are true
+console.log("and :",num1 > num2 && num2 > num3);//both con are false
+console.log("or :",num1 < num2 || num2 < num3);//at least one con is true
+console.log("or :",num1 > num2 || num2 > num3);//at least one con is false
 
-console.log(firstname || lastname);
-// method 2
-console.log(0 && 1);
-
-console.log(0 || 1);
-
-*/
 // • Test whether an item is in a array
 
-var a:string[]=["Sana","Ali","raza"];
-var b=Array.isArray(a);
-console.log(b);
+let name:string[]=["Sana","Ali","Raza"];
 
+console.log(name.includes("Sana"));
+console.log(name.includes("Saad"));
 
 // • Test whether an item is not in a array
 
-var x:number=7
-var y=Array.isArray(x);
-console.log(y);
-
+let x:number[]=[2,4,6,8];
+console.log(!x.includes(3));
+console.log(!x.includes(8));
 
 
 

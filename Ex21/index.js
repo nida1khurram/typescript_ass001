@@ -2,14 +2,14 @@
 // They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items.
 Object.defineProperty(exports, "__esModule", { value: true });
 //object
-var food = {
+const food = {
     item: "chicken roll",
     price: 150,
     description: "delicious full of chicken roll",
 };
 // console.log(food);
 // define an array of an object
-var foods = [];
+let foods = [];
 //push obj
 foods.push(food);
 foods.push({
@@ -23,7 +23,6 @@ foods.push({
     description: "Fajita flavour",
 });
 // console.log(foods)
-for (var _i = 0, foods_1 = foods; _i < foods_1.length; _i++) {
-    var i = foods_1[_i];
+for (let i of foods) {
     console.log(i);
 }

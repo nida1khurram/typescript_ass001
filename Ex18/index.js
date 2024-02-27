@@ -1,6 +1,7 @@
+"use strict";
 // Seeing the World: Think of at least five places in the world you’d like to visit.
 // • Store the locations in a array. Make sure the array is not in alphabetical order.
-var places_visit = ["Madina", "Iraq", "Falastine", "Makkah", "Dubai"];
+let places_visit = ["Madina", "Iraq", "Falastine", "Makkah", "Dubai"];
 //  Print your array in its original order.
 // console.log(places_visit);
 // // • Print your array in alphabetical order without modifying the actual list.

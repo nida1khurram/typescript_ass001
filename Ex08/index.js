@@ -4,7 +4,7 @@
 //console.log(5 + 3)
 Object.defineProperty(exports, "__esModule", { value: true });
 //--------------------------------
-var line_Char = "-";
+let line_Char = "-";
 console.log(line_Char.repeat(50));
 console.log("console.log(16 - 8); ");
 console.log(line_Char.repeat(50));

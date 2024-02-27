@@ -1,9 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 //languages store in a array
-var language = ["Urdu", "English", "Arbi", "Farsi", "Sindhi"];
+let language = ["Urdu", "English", "Arbi", "Farsi", "Sindhi"];
 console.log("List of Languages :");
-for (var _i = 0, language_1 = language; _i < language_1.length; _i++) {
-    var lang = language_1[_i];
+for (let lang of language) {
     console.log(lang);
 }
