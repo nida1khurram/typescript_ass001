@@ -6,7 +6,9 @@ var magname = ['dave', 'harry', 'jmmy'];
 function show_magicians(names) {
     for (var _i = 0, names_1 = names; _i < names_1.length; _i++) {
         var name_1 = names_1[_i];
+        //print array of mag name through for of loop
         console.log(name_1);
     }
 }
+//call func
 show_magicians(magname);

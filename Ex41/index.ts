@@ -5,9 +5,11 @@ const magname:string[]=['dave','harry','jmmy'];
 function show_magicians(names:string[]):void
 {
     for(const name of names){
+        //print array of mag name through for of loop
        console.log(name)
     }
 }
+//call func
 show_magicians(magname);
 
 export{}
