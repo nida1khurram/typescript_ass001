@@ -20,5 +20,3 @@ console.log(car1);
 console.log(car2);
 
 export{}
-// 
-// Remote start

@@ -16,5 +16,3 @@ var car2 = car("Toyota", "corolla", "red", "sunroof");
 //  Print the Object that’s returned to make sure all the information was stored correctly.
 console.log(car1);
 console.log(car2);
-// 
-// Remote start

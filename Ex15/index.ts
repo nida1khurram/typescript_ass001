@@ -8,8 +8,7 @@ console.log(`${personwhocant},can't make it to dinner `);
 
 // Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
 let newGuest:string= "Faiza"
-guestlist[1] = newGuest
-
+guestlist[1] = newGuest //guestlist[guestlist.indexOf(personwhocant)] = newGuest (discord)
 // Print a second set of invitation messages, one for each person who is still in your list.
 console.log(" second set of invitation messages");
 
